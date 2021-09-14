@@ -1,0 +1,18 @@
+// input: ( black-list-words , current-words )
+
+map(k , v) :
+	black-list-words = extract(v);
+	current-words = extract(v);
+		for black-list-word : black-list-words
+			for current-word : current-words
+				if (current-word !== black-list-word)
+					emit ( current-word , 1 )
+		
+// اعمال میشه map function روی خروجی های groupBy در اینجا فاز 
+
+
+reduce(k , [V]) :
+	sum = 0;
+	for v : V
+		sum += v;
+	emit ( k , sum ) 
