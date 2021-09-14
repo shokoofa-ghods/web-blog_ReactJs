@@ -10,3 +10,9 @@ this project works on front-end side of information extractor system and the bac
 + API call with Axios
 
 To connect the app with node-express project you should follow the structures implemented its [repository](https://github.com/gothinkster/node-express-realworld-example-app) and don't forget to run `npm run dev` to start the local server on your machine, then this app's API call will work correctly.
+
+### usage note
++ run `npm install` to download node_module folder
++ `npm start` to run the app on your web
+
+this app handles the routing and state handling between pages and does not use style templates
