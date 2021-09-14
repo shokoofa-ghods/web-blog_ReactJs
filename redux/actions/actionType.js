@@ -1,0 +1,7 @@
+export const GET_ARTICLES = 'GET_ARTICLES';
+export const ADD_ARTICLE = 'ADD_ARTICLE';
+export const DELETE_ARTICLE = 'DELETE_ARTICLE';
+export const REQUEST_PENDING = 'REQUEST_PENDING';
+export const REQUEST_SUCCESSED = 'REQUEST_SUCCESSED';
+export const REQUEST_FAILED = 'REQUEST_FAILED';
+export const SET_TOKEN = 'SET_TOKEN'; 
